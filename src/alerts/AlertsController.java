@@ -31,7 +31,7 @@ public class AlertsController implements Initializable {
     private void alerta1(ActionEvent event) {
         Alert alerta = new Alert(Alert.AlertType.INFORMATION);
         alerta.setTitle("Caixa de Informação");
-        alerta.setHeaderText("Cabeçalho da Caixa");
+        alerta.setHeaderText(null);
         alerta.setContentText("Mensagem da Informação");
         alerta.showAndWait();
     }
