@@ -33,7 +33,7 @@ public class AlertsController implements Initializable {
         alerta.setTitle("Caixa de Informação");
         alerta.setHeaderText("Cabeçalho da Caixa");
         alerta.setContentText("Mensagem da Informação");
-        alerta.show();
+        alerta.showAndWait();
     }
     
 }
